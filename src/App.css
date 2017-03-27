@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 50%;
+}
+
+body {
+  height: 100%;
+  font-size: 62.5%;
+  line-height: 1;
+  background-color: #222;
+}
+
+.app {
+  height: 100%;
+  padding: 0.25em;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  color: #abc;
+  font-family: monospace;
+}
+
+.shell__input-line {
+  display: flex;
+}
+
+.shell__prompt {
+  margin-right: 0.5em;
+}
+
+.shell__input {
+  flex-grow: 1;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  background: inherit;
+  color: inherit;
+  border: 0;
+  outline: none;
+  line-height: 1;
+  padding: 0;
+}
+
